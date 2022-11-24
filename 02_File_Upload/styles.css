@@ -1,0 +1,82 @@
+*{
+    font-family: Georgia, serif;
+    color: red;
+}
+body{
+background-color: rgb(5, 3, 3);
+}
+.header_sec{
+    background-color: rgb(233, 6, 6);
+    border: 1px solid rgb(5, 3, 3);
+    border-radius: 70px;
+    text-align: center;
+    width: 1500px;
+}
+.header_con > h1, h3 {
+    cursor: default;
+    color: black !important;
+}
+.header_con h1{
+    font-size: 50px;
+}
+.header_con h3{
+    font-size: 20px;
+}
+.main_area {
+    width: 1500px;
+}
+.main_con {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+    margin: 10px;
+}
+.left {
+    font-size: 25px;
+    text-align: left;
+    padding-right: 0px;
+    padding-top: 100px;
+    color: rgb(233, 6, 6);
+    background-size: 500px;
+    background-color: rgb(5, 3, 3);
+}
+p {
+    cursor: default;
+}
+.a {
+    border-color: rgb(233, 6, 6);
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: rgb(248, 168, 168);
+}
+.gender_p {
+    padding: 0px 0px 20px 80px;
+    padding-top: 0px;
+    margin: 0px;
+    width: 250px;
+    cursor: default;
+}
+.gender_p input {
+    cursor: pointer;
+    height: 20px;  
+    width: 20px;  
+}
+.right {
+    padding-left: 0px;
+    margin: 0px;
+}
+.submit {
+    font-size: 25px;
+    width: 353px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(233, 6, 6);
+    font-weight: bolder;
+    cursor: pointer;
+    color: black;
+}
+.submit:hover {
+    background-color: rgb(99, 3, 3);
+    color: #fff;
+}
